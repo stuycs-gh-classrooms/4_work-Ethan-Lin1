@@ -24,7 +24,7 @@ class Ball {
   }//display
   
   void setColor(color newc){
-    c = newc
+    c = newc;
   }
   void move() {
     if (cx <= radius || cx >= (width - 1 - radius)) {
@@ -47,9 +47,18 @@ class Ball {
     return d <= radius;
   }//onBall
   
+  boolean collisionCheck(Ball other){
+    float d = (this.cx-other.cx)*(this.cx-other.cx)+(this.cy-other.cy)*(this.cy-other.cy);
+    if (this == other){
+    return  (1==0);}
+    else{
+    return d <= 4*this.radius*this.radius;}
+  }
+  
   int getScoreValue() {
     int score = abs(xvelocity) + abs(yvelocity); 
     return score;
   }//getScoreValue
-  
-}//Ball
+  }
+//Ball 
+//this.cx*this.cx-other.cx*other.cx)+(this.cy*this.cy-other.cy*other.cy) <= this.radius*this.radius;
