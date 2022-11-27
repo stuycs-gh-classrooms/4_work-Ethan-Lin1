@@ -1,6 +1,6 @@
-
 Ball[] balls;
 int score;
+int b=0;
 color SAFE_COLOR = color(0, 255, 255);
 color COLLISION_COLOR = color(255, 0, 255);
 
@@ -16,6 +16,16 @@ void setup() {
 void draw() {
   background(0);
   for (int i=0; i<balls.length; i++) {
+  balls[i].setColor(SAFE_COLOR);
+  for (int z=0; z<balls.length; z++) {
+    if (balls[i].collisionCheck(balls[z])){
+    b+=1;
+  }
+}
+  if (b>0){
+    balls[i].setColor(COLLISION_COLOR);
+    b=0;
+  }
   balls[i].display();
   balls[i].move();
   }
