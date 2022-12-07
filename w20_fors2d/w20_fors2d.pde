@@ -1,3 +1,4 @@
+
 //State variable constants
 int DIRT = 0;
 int FIRE = 1;
@@ -26,13 +27,10 @@ void setup() {
 }//setup
 
 void draw() {
-  for (int i=0; i<grid.length; i++) {
     showLand(grid);
-  }
   if (burning) {
-    for (int i=0; i<grid.length; i++) {
+
     liveFire(grid);
-  }
   }//burning
 }//draw
 
