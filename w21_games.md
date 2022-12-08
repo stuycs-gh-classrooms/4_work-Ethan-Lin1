@@ -1,8 +1,7 @@
-<h1>Ethan Lin
-Julian Hong
-Zhixuan Yang
-Pd. 4<h1>
-<br>
+<h1>Ethan Lin<br>
+Julian Hong<br>
+Zhixuan Yang<br>
+Pd. 4<br><h1>
     What is the purpose of the game?
     The purpose of the game is to break all the boxes without letting the ball hit the bottom of the screen. 
     What element(s) are controlled by the player?
