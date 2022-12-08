@@ -2,6 +2,7 @@ Ethan Lin
 Julian Hong
 Zhixuan Yang
 Pd. 4
+<br>
     What is the purpose of the game?
     The purpose of the game is to break all the boxes without letting the ball hit the bottom of the screen. 
     What element(s) are controlled by the player?
