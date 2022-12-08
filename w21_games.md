@@ -1,6 +1,6 @@
 <h1>Ethan Lin<br>
 Julian Hong<br>
-Zhixuan Yang<br>
+Zhixuan Yang (Lucy)<br>
 Pd. 4<br></h1>
     <h3>What is the purpose of the game?</h3><br>
     The purpose of the game is to break all the boxes without letting the ball hit the bottom of the screen. <br>
